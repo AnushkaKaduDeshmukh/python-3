@@ -1,0 +1,15 @@
+TASK-2
+
+
+
+
+List1 = [20,-12,-32,6,7,-10]
+print("Original numbers in the list: ",List1)
+New_List = list(filter(lambda x: x>0, List1))
+print("Positive numnbers in the list: ",New_List)
+
+
+List2 = [60,-45,56,-89,-3,70]
+print("Original numbers in the list: ",List2)
+New_List = list(filter(lambda x: x>0, List2))
+print("Positive numnbers in the list: ",New_List)
